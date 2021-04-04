@@ -1,13 +1,5 @@
 
 
-/* centter anything in css with 
-display:flex;
-align-items:center;
-justify-content; */
-
-html{
-	sroll-behaviour:smooth;
-}
 .wrapper{
 	height:10vh;
 	display:flex;
@@ -124,7 +116,4 @@ button:nth-child(16){
 button:nth-child(20){
 	font-size:15px
 }
-.my-cursor{
-	cursor:url('bodyimage.jpg'),auto;
-	color:cornsilk;
-}
+
