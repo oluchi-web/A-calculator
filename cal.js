@@ -2,10 +2,10 @@
 function getPrevious(){
     return document.getElementById("previous-value").innerText;
 } 
-//alert(getHistory());
+
 function printPrevious(num){
     return document.getElementById("previous-value").innerText=num;
-}//printHistory(9+9);
+}
 function getOutcome(){
     return document.getElementById("outcome-value").innerText;
 }
@@ -27,7 +27,7 @@ function getFormattedNumber(num){
     var value=n.toLocaleString("en");
     return value;
 }
-//printOutput(400*41);
+
  function reverseNumberFormat(num){
      return Number(num.replace(/,/g,''));
     
@@ -74,7 +74,6 @@ function getFormattedNumber(num){
        }
            
        
-   // alert("the operator clicked:"+this.id);
  });
  } 
  var number =document.getElementsByClassName("number")
