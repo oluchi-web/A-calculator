@@ -1,11 +1,9 @@
-
-
 .wrapper{
 	height:10vh;
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	background-color: rgb(15, 15, 15);
+	background-color:#f8f9fa;
 }
 .typing-demo{
 	width:49ch;
@@ -18,7 +16,7 @@
 	font-family:  Geneva, Verdana, sans-serif;
 	font-size:2em;
 	font-weight: bold;
-	color: chartreuse
+	color: #343a40;
 }
 @keyframes typing{
 	from{
@@ -28,29 +26,33 @@
 }
 @keyframes blink{
 	50%{
-		border-color: chartreuse;;
+		border-color: #343a40;;
 		
 	}
 }
 	body{
-    background-color: black;
+    background-color: #fCfCfC;
     
 }
 
 #calculator{
 	width: 320px;
-	height: 520px;
-	background-color: #cee9ce;
+	height: 540px;
+	background-color: #ced4da;
 	margin: 0 auto;
 	top: 200px;
 	position: relative;
 	border-radius: 5px;
-	filter: drop-shadow(2px 4px 8px #747474); 
-	box-shadow: 0 4px 8px 0 rgba(60, 134, 97, 0.2), 0 6px 20px 0 rgba(158, 233, 180, 0.19);
+	
+	
 }
 #result{
 	height: 120px;
-	background-color:  chartreuse;
+	background-color:  #212529;
+	color:#ffffff;
+	font-family: Poppins;
+	font-weight: 500;
+
     
 }
 #previous{
@@ -59,6 +61,7 @@
 	margin: 0 20px;
 	padding-top: 20px;
 	font-size: 15px;
+	font-family: Poppins;
    
     
 }
@@ -84,19 +87,21 @@
    
 }
 .operator{
-    background-color: chartreuse;
+    background-color: #6c757d;
     border-radius: 30px;
     border-width: 4px;
-	font-size:12px
+	font-size:12px;
+	color:#ffffff;
+	
 }
 .number{
 	
-	background-color:#cee9ce;
+	background-color:#fcfcfc;
 	font-size:18px;
-	filter: drop-shadow(2px 4px 8px #585858); 
+	filter: drop-shadow(2px 3px 6px #ADB5BD); 
 }
 .empty{
-	background-color:#cee9ce;
+	background-color:#ced4da;
 }
 button:nth-child(3){
 	font-size:15px
@@ -116,4 +121,10 @@ button:nth-child(16){
 button:nth-child(20){
 	font-size:15px
 }
-
+.number:active { 
+	background-color:#ced4da;
+	
+} 
+*:focus {
+    outline: 0 !important;
+}
